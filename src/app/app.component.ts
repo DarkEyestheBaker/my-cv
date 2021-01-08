@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-cv';
+  title = 'My Resume';
+  name = 'Julie Dietsch';
+  address = '8119 Valley Crossing Drive';
+  phone = '951-216-4486';
+  email = 'julesdietsch@fioptics.com';
+  displayWork = true;
+  displayEdu = true;
 }
